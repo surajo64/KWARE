@@ -20,7 +20,7 @@ const protect = async (req, res, next) => {
 
             next();
         } catch (error) {
-            console.log(error);
+            console.log('Auth Failed:', error.message);
             res.status(401).json({ message: 'Not authorized' });
         }
     }
@@ -30,4 +30,12 @@ const protect = async (req, res, next) => {
     }
 };
 
-module.exports = { protect };
+const admin = (req, res, next) => {
+    if (req.user && req.user.role === 'admin') {
+        next();
+    } else {
+        res.status(401).json({ message: 'Not authorized as an admin' });
+    }
+};
+
+module.exports = { protect, admin };

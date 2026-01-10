@@ -10,31 +10,41 @@ export default function StaffPortal() {
     const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setIsLoading(true);
 
-        // Simulate network delay
-        setTimeout(() => {
-            const user = users.find(u =>
-                (u.username === formData.staffId || u.email === formData.staffId) &&
-                u.password === formData.password
-            );
+        try {
+            const res = await fetch('/api/auth/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    staffId: formData.staffId,
+                    password: formData.password,
+                }),
+            });
 
-            setIsLoading(false);
+            const data = await res.json();
 
-            if (user) {
+            if (res.ok) {
                 // Successful login
-                localStorage.setItem('user', JSON.stringify(user));
-                if (user.role === 'admin') {
+                localStorage.setItem('user', JSON.stringify(data));
+                if (data.role === 'admin') {
                     navigate('/admin-dashboard');
                 } else {
                     navigate('/staff-dashboard');
                 }
             } else {
-                alert("Invalid credentials. Please use 'admin'/'password123' or 'staff'/'password123'");
+                alert(data.message || 'Login failed');
             }
-        }, 1500);
+        } catch (error) {
+            console.error('Login error:', error);
+            alert('Something went wrong. Please try again.');
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
