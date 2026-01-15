@@ -9,7 +9,7 @@ import medLabImg from '../assets/medlab.png';
 import socialImg from '../assets/social.png';
 import nurseImg from '../assets/nurse.png';
 import avatarImg from '../assets/avatar.png';
-import psychoImg from '../assets/psycho.png';
+import psychoImg from '../assets/psyco.png';
 import researchImg from '../assets/research.png';
 import { User, Award, BookOpen, Globe, X, ArrowRight } from 'lucide-react';
 
