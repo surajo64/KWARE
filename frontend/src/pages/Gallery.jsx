@@ -4,6 +4,16 @@ import centreImg from '../assets/centre.png';
 import icuImg from '../assets/icu.png';
 import labImg from '../assets/lab.png';
 import wardImg from '../assets/ward.png';
+import gall1 from '../assets/1.png';
+import gall2 from '../assets/2.png';
+import gall3 from '../assets/3.png';
+import gall4 from '../assets/4.png';
+import gall5 from '../assets/5.png';
+import gall6 from '../assets/6.png';
+import gall7 from '../assets/7.png';
+import gall8 from '../assets/8.png';
+import gall10 from '../assets/10.png';
+import gall17 from '../assets/17.png';
 import hospitalImg from '../assets/hospital.png';
 
 export default function Gallery() {
@@ -15,6 +25,17 @@ export default function Gallery() {
         { src: labImg, caption: "Molecular Laboratory" },
         { src: wardImg, caption: "Psychiatric Wards" },
         { src: hospitalImg, caption: "Hospital Grounds" },
+        { src: gall1, caption: "New Block Under Construction" },
+        { src: gall2, caption: "New ICT Centre" },
+        { src: gall3, caption: "ICT Room" },
+        { src: gall4, caption: "School of Post Basic Nursing" },
+        { src: gall5, caption: "Molecular Laboratory" },
+        { src: gall5, caption: "Psychiatric Wards" },
+        { src: gall6, caption: "Hospital Grounds" },
+        { src: gall8, caption: "Regional Center for Women & Children" },
+        { src: gall10, caption: "Accident & Emergency Department" },
+        { src: gall17, caption: "ICU & Isolation Wards" },
+
     ];
 
     return (
