@@ -9,6 +9,7 @@ import medLabImg from '../assets/medlab.png';
 import socialImg from '../assets/social.png';
 import nurseImg from '../assets/nurse.png';
 import avatarImg from '../assets/avatar.png';
+import psychoImg from '../assets/psycho.png';
 import researchImg from '../assets/research.png';
 import { User, Award, BookOpen, Globe, X, ArrowRight } from 'lucide-react';
 
@@ -106,7 +107,7 @@ He is married and blessed with children`
         {
             name: "Dr. AbdulAzeez Hussaini, MSc ",
             role: "H.O.D psychology Department",
-            image: avatarImg,
+            image: psychoImg,
             qualifications: "Clinical Psychology",
             bio: `AbdulAzeez Hussaini, MSc (Clinical Psychology)
 AbdulAzeez Hussaini is an experienced Clinical Psychologist and Head of the Clinical Psychology Department. He holds an MSc in Clinical Psychology from the University of Jos and a BSc in Psychology from Lead City University, Ibadan. His professional training and practice span Federal, State, Private, and Missionary health institutions.
