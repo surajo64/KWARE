@@ -60,7 +60,7 @@ export default function Home() {
         {
             name: "Medical Director",
             role: "Medical Director",
-            image: avatarImg,
+            image: cmdImg,
             bio: "Leading the hospital towards excellence in mental health care delivery, training, and research."
         },
         {
