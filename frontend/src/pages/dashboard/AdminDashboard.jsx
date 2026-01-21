@@ -41,6 +41,12 @@ export default function AdminDashboard() {
                     <NavLink to="/admin-dashboard/staff" className={navLinkClass}>
                         <Users size={20} /> Staff Management
                     </NavLink>
+                    <NavLink to="/admin-dashboard/schedules" className={navLinkClass}>
+                        <FileText size={20} /> Schedule Management
+                    </NavLink>
+                    <NavLink to="/admin-dashboard/payslips" className={navLinkClass}>
+                        <FileText size={20} /> Payslip Management
+                    </NavLink>
                     <NavLink to="/admin-dashboard/reports" className={navLinkClass}>
                         <FileText size={20} /> Reports
                     </NavLink>

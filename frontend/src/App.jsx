@@ -17,6 +17,8 @@ import StaffDashboard from './pages/dashboard/StaffDashboard';
 import AdminOverview from './pages/dashboard/components/AdminOverview';
 import AdminStaff from './pages/dashboard/components/AdminStaff';
 import AdminReports from './pages/dashboard/components/AdminReports';
+import AdminPayslips from './pages/dashboard/components/AdminPayslips';
+import AdminSchedules from './pages/dashboard/components/AdminSchedules';
 import StaffOverview from './pages/dashboard/components/StaffOverview';
 import StaffSchedule from './pages/dashboard/components/StaffSchedule';
 import StaffPayslip from './pages/dashboard/components/StaffPayslip';
@@ -40,6 +42,8 @@ function App() {
                 <Route path="/admin-dashboard" element={<AdminDashboard />}>
                     <Route index element={<AdminOverview />} />
                     <Route path="staff" element={<AdminStaff />} />
+                    <Route path="schedules" element={<AdminSchedules />} />
+                    <Route path="payslips" element={<AdminPayslips />} />
                     <Route path="reports" element={<AdminReports />} />
                     {/* Placeholder for settings if needed */}
                     <Route path="settings" element={<AdminOverview />} />
