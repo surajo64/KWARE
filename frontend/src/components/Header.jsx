@@ -50,8 +50,8 @@ export default function Header() {
             <div className="bg-primary text-white py-2 hidden md:block">
                 <div className="container mx-auto px-4 flex justify-between items-center text-sm">
                     <div className="flex items-center space-x-6">
-                        <span className="flex items-center gap-2"><Phone size={16} /> 08037339521</span>
-                        <span className="flex items-center gap-2"><Mail size={16} /> INFO@FNPHKSOK.GOV.NG</span>
+                        <span className="flex items-center gap-2"><Phone size={16} /> 07068334606</span>
+                        <span className="flex items-center gap-2"><Mail size={16} /> info@fnphkware.gov.ng</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <span>Federal Neuropsychiatric Hospital, Kware, Sokoto</span>

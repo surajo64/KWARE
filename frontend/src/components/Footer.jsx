@@ -47,11 +47,11 @@ export default function Footer() {
                         </li>
                         <li className="flex items-center gap-3">
                             <Phone size={18} />
-                            <span>08037339521</span>
+                            <span>07068334606</span>
                         </li>
                         <li className="flex items-center gap-3">
                             <Mail size={18} />
-                            <span>INFO@FNPHKSOK.GOV.NG</span>
+                            <span>info@fnphkware.gov.ng</span>
                         </li>
                     </ul>
                     <div className="flex gap-4 mt-6">
