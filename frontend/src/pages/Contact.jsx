@@ -27,7 +27,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 className="font-bold text-gray-800">Phone Number</h3>
-                                        <p className="text-gray-600">08037339521</p>
+                                        <p className="text-gray-600">07068334606</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4">
@@ -36,7 +36,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 className="font-bold text-gray-800">Email Address</h3>
-                                        <p className="text-gray-600">INFO@FNPHKSOK.GOV.NG</p>
+                                        <p className="text-gray-600">info@fnphkware.gov.ng</p>
                                     </div>
                                 </li>
                             </ul>

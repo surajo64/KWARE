@@ -2,8 +2,10 @@ import adminImg from '../assets/admin.png';
 import aeImg from '../assets/a&e.png';
 import centreImg from '../assets/centre.png';
 import icuImg from '../assets/icu.png';
+import ictImg from '../assets/ict.png';
 import labImg from '../assets/lab.png';
 import wardImg from '../assets/ward.png';
+import nurseimg from '../assets/nurse.png';
 import hospitalImg from '../assets/hospital.png';
 
 export const departments = [
@@ -20,7 +22,7 @@ export const departments = [
         id: "nursing-services",
         title: "Nursing Services",
         category: "Clinical",
-        image: wardImg,
+        image: nurseimg,
         description: "Dedicated nursing professionals providing 24/7 care with compassion and expertise.",
         content: `The Nursing Services Department of the Federal Neuropsychiatric Hospital (FNPH), Kware, Sokoto, has been a central component of the institution since its establishment in 1988 as Kware Mental Home under the Sokoto State Ministry of Social Welfare. Following the hospital’s takeover by the Federal Ministry of Health in 1995, the department evolved in line with the mandate of a federal tertiary mental health institution. As part of the Clinical Services Directorate, it has expanded with the hospital’s growth and now oversees thirteen wards and units with an estimated bed capacity of about 300, all managed by professionally trained nursing staff delivering specialized psychiatric and integrated medical care. Core services include the Assessment Unit for patient intake, psychiatric evaluation, triage, and coordination of multidisciplinary care, and the Outpatient Department, which provides follow-up services such as medication monitoring, psychoeducation, crisis intervention, relapse prevention, and admission and discharge coordination. The department also manages specialized substance use treatment facilities, including Drug Wards A and B, the Drug Addiction, Treatment, Education and Research (DATER) Unit, and the Regional Centre for Women and Children Drug Rehabilitation, offering detoxification, rehabilitation, behavioral therapy, and structured aftercare. Inpatient male and female psychiatric wards provide comprehensive nursing care for severe mental illnesses, while also serving as training and research centers. Additional services include the Electroconvulsive Therapy (ECT) Unit and the Accident and Emergency (A&E) wards introduced in July 2023 to support integrated emergency medical and surgical care. Through these milestones and services, the department remains pivotal to the delivery of safe, patient-centered, and integrated healthcare in accordance with Federal Ministry of Health standards.`
     },
@@ -257,7 +259,7 @@ The functions of the Laundry Department include the processing, washing, drying,
         id: "ict",
         title: "ICT",
         category: "Support",
-        image: hospitalImg,
+        image: ictImg,
         description: "Information and Communication Technology services.",
         content: "Provides technical support, network infrastructure, and digital solutions to enhance hospital operations and service delivery."
     },

@@ -7,7 +7,7 @@ import recordImg from '../assets/record.png';
 import libraryImg from '../assets/library.png';
 import medLabImg from '../assets/medlab.png';
 import socialImg from '../assets/social.png';
-import nurseImg from '../assets/nurse.png';
+import nurseImg from '../assets/nurseh.png';
 import avatarImg from '../assets/avatar.png';
 import psychoImg from '../assets/psyco.png';
 import AE from '../assets/ha&e.png';
