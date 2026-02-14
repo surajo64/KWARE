@@ -28,12 +28,83 @@ He is a member and fellow of several professional bodies, including the Nigerian
 `
         },
         {
+            name: "Dr. soon.. ",
+            role: "Ag. Head of Administration ",
+            image: avatarImg,
+            qualifications: "Waiting... ",
+            bio: `Wainting...`      
+         },
+        {
             name: "Dr. Zubairu Umar, MBBS, FMCPsych",
             role: "Ag. Head of Clinical Services (CMAC)",
             image: cmacImg,
             qualifications: "Consultant Psychiatrist & Hospital Administrator",
             bio: "Dr. Zubairu Umar is a Consultant Psychiatrist and Hospital Administrator currently serving as the Acting Head of Clinical Services at the Federal Neuropsychiatric Hospital, Kware. A Fellow of the National Postgraduate Medical College of Nigeria, he is a senior clinical leader with extensive experience in psychiatric practice, hospital administration, and mental health research. He provides strategic leadership in clinical governance, service expansion, and EMR implementation. His research focuses on depression in children/adolescents with intellectual disabilities and mental health epidemiology. He is passionate about AI in healthcare and mental health advocacy."
         },
+         
+         {
+            name: "Dr. Abdulaziz Hadi Ibrahim, MBBS, FWACP ",
+            role: "Deputy Head of Clinical services",
+            image: researchImg,
+            qualifications: "Consultant Psychiatrist ",
+            bio: `Dr. Abdulaziz Hadi Ibrahim is a Consultant Psychiatrist and Fellow of the West African College of Physicians (Psychiatry). He obtained his MBBS from Ahmadu Bello University, Zaria, and completed postgraduate psychiatric training at the Federal Neuropsychiatric Hospital, Kware. He currently serves as Chairman of the Hospital’s Health Research Ethics Committee and is pursuing a Master of Public Health at Usmanu Danfodiyo University, Sokoto.`
+        },
+         {
+            name: "Pharm. Samuel Oluwasegun Olaoye, FPCPharm, FPSN",
+            role: "Director of Pharmaceutical Services",
+            image: pharmImg,
+            qualifications: "Consultant Pharmacist",
+            bio: "Pharm. Olaoye is a Consultant Pharmacist with over 30 years of experience in hospital pharmacy and health administration. A graduate of the University of Nigeria, Nsukka, he has led Pharmaceutical Services at FNPH Kware since 1996, overseeing its development into a comprehensive clinical and administrative department. He holds advanced qualifications in mental and behavioural health pharmacy, human resource management, and public administration, and is a Fellow of the Pharmaceutical Society of Nigeria and the West African Postgraduate College of Pharmacists.",
+        },
+         {
+            name: "Nurse Ahmad Balarabe Tanimu, BNSc, RN, RPN, PGDE",
+            role: "H.O.D Nursing Services",
+            image: nurseImg,
+            qualifications: "BNSc,PGDE",
+            bio: `Nurse Ahmad Balarabe Tanimu is the Head of the Nursing Services Department at the Federal Neuro-Psychiatric Hospital, Kware, Sokoto. He is a seasoned mental health professional with extensive experience in nursing administration, clinical care, and training.
+He began his early education in Kuje, Abuja, and trained as a Registered Nurse at the School of Nursing, Gwagwalada, Abuja. He subsequently specialized in mental health nursing at the School of Post-Basic Psychiatric Nursing, Uselu, Benin City, Edo State. Nurse Tanimu holds a Bachelor of Nursing Science (BNSc) degree from Maryam Abacha University, Niger Republic. He also possesses a Postgraduate Diploma in Education (PGDE) and is a registered member of the Teachers Registration Council of Nigeria (TRCN).
+Nurse Tanimu has progressed through the nursing career ladder from Nursing Officer II to the rank of Deputy Director of Nursing. Over the years, he has led several clinical units and has served in various capacities on hospital committees, contributing significantly to service delivery, policy implementation, and professional development.
+He is widely recognized for his leadership, professionalism, and unwavering commitment to quality mental health care. Nurse Tanimu is happily married and blessed with children.
+`
+        },
+
+         {
+            name: "Dr. Suleiman Abdullahi, MBBS ",
+            role: "HOD Accident and Emergency",
+            image: AE,
+            qualifications: "Senior Medical Officer ",
+            bio: `Dr. Suleiman Abdullahi was born in the late 1980s in Isa Local Government Area of Sokoto State, Nigeria. He received his primary education at Sarkin Gobir Model Primary School, Isa, and LEA Primary School, Karu, Abuja. He proceeded to Government Secondary School (GSS), Karu, Abuja, where he completed his secondary education.
+Dr. Abdullahi obtained his Bachelor of Medicine, Bachelor of Surgery (MBBS) degree from Usmanu Danfodiyo University, Sokoto (UDUS). He is currently a Senior Medical Officer and is also undergoing postgraduate training as a Senior Registrar in Family Medicine.
+He is committed to the delivery of quality, patient-centered healthcare and has a strong interest in integrated medical services. Dr. Abdullahi is happily married and blessed with children.
+`
+        },
+        {
+            name: "Psych. AbdulAzeez Hussaini, MSc ",
+            role: "H.O.D psychology Department",
+            image: psychoImg,
+            qualifications: "Clinical Psychology",
+            bio: `AbdulAzeez Hussaini, MSc (Clinical Psychology)
+AbdulAzeez Hussaini is an experienced Clinical Psychologist and Head of the Clinical Psychology Department. He holds an MSc in Clinical Psychology from the University of Jos and a BSc in Psychology from Lead City University, Ibadan. His professional training and practice span Federal, State, Private, and Missionary health institutions.
+He possesses extensive clinical experience across inpatient, outpatient, and community settings, including service delivery in Internally Displaced Persons (IDP) contexts. His professional interests and research focus include Post-Traumatic Stress Disorder (PTSD), clinical relapse, psychodynamic factors, and human sexuality. He is a strong advocate for multidisciplinary, evidence-based mental healthcare, ethical practice, and stigma reduction.
+`
+        },
+        {
+            name: "MLS Binta Muhammad ",
+            role: "Head, Medical Laboratory Services Department",
+            image: medLabImg,
+            qualifications: "MSc in Chemical Pathology, with PhD Inview",
+            bio: ` MLS Binta Muhammad is the Head, Medical Laboratory Services Department. She is an experienced Medical Laboratory Scientist with over 25 years of professional practice. She holds degrees in Biochemistry and Medical Laboratory Science, an MSc in Chemical Pathology, and is an Associate of the Institute of Medical Laboratory Science, with a PhD in view. As Head of Department, she provides strategic leadership that has strengthened service delivery, achieved internship programme accreditation, and enhanced research and quality performance at FNPH Kware.`
+        },
+
+         {
+            name: "Mr. Sanusi B. Ahmed",
+            role: "HEAD OF OCCUPATIONAL THERAPY",
+            image:avatarImg,
+            qualifications: "BSc in Occupational Therapy",
+            bio: ` Mr. Sanusi B. Ahmed is a trained Occupational Therapy professional. He was born and raised in Argungu, Kebbi State, Nigeria, where he completed his primary and secondary education. He obtained a Basic Nursing Certificate from the School of Nursing, Sokoto, and a Post-Basic Psychiatric Nursing Certificate from Aro Hospital, Abeokuta.
+He further trained at the Federal School of Occupational Therapy, Yaba, Lagos, and earned a Bachelor of Science in Occupational Therapy from Queen Margaret University, Edinburgh, Scotland. He is married with children and brings multidisciplinary clinical expertise to the leadership of the department.
+If you wish, I can further compress this to meet very strict FMoH portal word limits or separate the HOD profile into a standalone webpage, as commonly required for official hospital websites.
+`      },
 
         {
             name: "Mr Peter Moses Enojo (AHR)",
@@ -45,13 +116,7 @@ He is a member and fellow of several professional bodies, including the Nigerian
             Mr Enojo is trained in health data management, education, and information systems and is actively involved in the training of health records professionals. He is married with four children.
 `
         },
-        {
-            name: "Pharm. Samuel Oluwasegun Olaoye, FPCPharm, FPSN",
-            role: "Director of Pharmaceutical Services",
-            image: pharmImg,
-            qualifications: "Consultant Pharmacist",
-            bio: "Pharm. Olaoye is a Consultant Pharmacist with over 30 years of experience in hospital pharmacy and health administration. A graduate of the University of Nigeria, Nsukka, he has led Pharmaceutical Services at FNPH Kware since 1996, overseeing its development into a comprehensive clinical and administrative department. He holds advanced qualifications in mental and behavioural health pharmacy, human resource management, and public administration, and is a Fellow of the Pharmaceutical Society of Nigeria and the West African Postgraduate College of Pharmacists.",
-        },
+       
         {
             name: "Mr. Sadiku Anuhue Saidu ",
             role: "HEAD OF DEPARTMENT (LIBRARY)",
@@ -61,23 +126,8 @@ He is a member and fellow of several professional bodies, including the Nigerian
 He holds a Diploma in Library Science and a Bachelor of Arts in Library Science/Economics from Bayero University, Kano, as well as a Master of Library Science from Ahmadu Bello University, Zaria. In addition, he obtained Advanced Certificate Courses in Procurement Management and Sustainable Environment from Ahmadu Bello University in 2024.
 Mr. Saidu worked with EMI Systems Ltd/ASP between 2005 and 2007 as a Patrol and Control Room Manager before joining the Federal Neuro-Psychiatric Hospital, Kware, in 2007 as a Librarian. He has extensive experience in library and information services within healthcare institutions and currently provides leadership in academic and medical information management.`
         },
-        {
-            name: "MLS Binta Muhammad ",
-            role: "Head, Medical Laboratory Services Department",
-            image: medLabImg,
-            qualifications: "MSc in Chemical Pathology, with PhD Inview",
-            bio: ` MLS Binta Muhammad is the Head, Medical Laboratory Services Department. She is an experienced Medical Laboratory Scientist with over 25 years of professional practice. She holds degrees in Biochemistry and Medical Laboratory Science, an MSc in Chemical Pathology, and is an Associate of the Institute of Medical Laboratory Science, with a PhD in view. As Head of Department, she provides strategic leadership that has strengthened service delivery, achieved internship programme accreditation, and enhanced research and quality performance at FNPH Kware.`
-        },
-        {
-            name: "Dr. Suleiman Abdullahi, MBBS ",
-            role: "HOD Accident and Emergency",
-            image: AE,
-            qualifications: "Senior Medical Officer ",
-            bio: `Dr. Suleiman Abdullahi was born in the late 1980s in Isa Local Government Area of Sokoto State, Nigeria. He received his primary education at Sarkin Gobir Model Primary School, Isa, and LEA Primary School, Karu, Abuja. He proceeded to Government Secondary School (GSS), Karu, Abuja, where he completed his secondary education.
-Dr. Abdullahi obtained his Bachelor of Medicine, Bachelor of Surgery (MBBS) degree from Usmanu Danfodiyo University, Sokoto (UDUS). He is currently a Senior Medical Officer and is also undergoing postgraduate training as a Senior Registrar in Family Medicine.
-He is committed to the delivery of quality, patient-centered healthcare and has a strong interest in integrated medical services. Dr. Abdullahi is happily married and blessed with children.
-`
-        },
+        
+       
         {
             name: "Shehu Sani",
             role: "H.O.D Medical Social Welfare",
@@ -85,17 +135,7 @@ He is committed to the delivery of quality, patient-centered healthcare and has 
             qualifications: "Medical Psychiatric",
             bio: `Shehu Sani was born on 10 April 1972 in Kwasai, Dange Shuni Local Government Area of Sokoto State. He received his primary education at Model Primary School, Secretariat Road, Sokoto (1980–1987), and his secondary education at Federal Government College, Sokoto (1988–1993). He later attended Sokoto State Polytechnic, where he obtained a Certificate in Social Development and a Diploma in Social Development in 1997 and 2006 respectively. He further advanced his professional training at Lagos State University Teaching Hospital (LUTH), earning a Certificate in Medical Psychiatric Social Work during the 2009/2010 academic session.`
         },
-        {
-            name: "Nurse Ahmad Balarabe Tanimu, BNSc, RN, RPN, PGDE",
-            role: "H.O.D Medical Social Welfare",
-            image: nurseImg,
-            qualifications: "BNSc,PGDE",
-            bio: `Nurse Ahmad Balarabe Tanimu is the Head of the Nursing Services Department at the Federal Neuro-Psychiatric Hospital, Kware, Sokoto. He is a seasoned mental health professional with extensive experience in nursing administration, clinical care, and training.
-He began his early education in Kuje, Abuja, and trained as a Registered Nurse at the School of Nursing, Gwagwalada, Abuja. He subsequently specialized in mental health nursing at the School of Post-Basic Psychiatric Nursing, Uselu, Benin City, Edo State. Nurse Tanimu holds a Bachelor of Nursing Science (BNSc) degree from Maryam Abacha University, Niger Republic. He also possesses a Postgraduate Diploma in Education (PGDE) and is a registered member of the Teachers Registration Council of Nigeria (TRCN).
-Nurse Tanimu has progressed through the nursing career ladder from Nursing Officer II to the rank of Deputy Director of Nursing. Over the years, he has led several clinical units and has served in various capacities on hospital committees, contributing significantly to service delivery, policy implementation, and professional development.
-He is widely recognized for his leadership, professionalism, and unwavering commitment to quality mental health care. Nurse Tanimu is happily married and blessed with children.
-`
-        },
+       
         {
             name: "Abubakar Adamu Goronyo, CNA",
             role: "H.O.D Procurement",
@@ -104,23 +144,8 @@ He is widely recognized for his leadership, professionalism, and unwavering comm
             bio: `Abubakar Adamu Goronyo, CNA, is a native of Goronyo Local Government Area of Sokoto State. He was born on 1st November, 1980. He commenced his formal education at the SRRBDA Staff School and proceeded to Government College, Keffi. He furthered his academic and professional training at Kaduna Polytechnic, the Nigeria College of Accountancy, Jos, Ahmadu Bello University, Zaria, Usmanu Danfodiyo University, Sokoto, and Nasarawa State University, Keffi.
 He is married and blessed with children`
         },
-        {
-            name: "Dr. AbdulAzeez Hussaini, MSc ",
-            role: "H.O.D psychology Department",
-            image: psychoImg,
-            qualifications: "Clinical Psychology",
-            bio: `AbdulAzeez Hussaini, MSc (Clinical Psychology)
-AbdulAzeez Hussaini is an experienced Clinical Psychologist and Head of the Clinical Psychology Department. He holds an MSc in Clinical Psychology from the University of Jos and a BSc in Psychology from Lead City University, Ibadan. His professional training and practice span Federal, State, Private, and Missionary health institutions.
-He possesses extensive clinical experience across inpatient, outpatient, and community settings, including service delivery in Internally Displaced Persons (IDP) contexts. His professional interests and research focus include Post-Traumatic Stress Disorder (PTSD), clinical relapse, psychodynamic factors, and human sexuality. He is a strong advocate for multidisciplinary, evidence-based mental healthcare, ethical practice, and stigma reduction.
-`
-        },
-        {
-            name: "Dr. Abdulaziz Hadi Ibrahim, MBBS, FWACP ",
-            role: "Head of Research Unit",
-            image: researchImg,
-            qualifications: "Consultant Psychiatrist ",
-            bio: `Dr. Abdulaziz Hadi Ibrahim is a Consultant Psychiatrist and Fellow of the West African College of Physicians (Psychiatry). He obtained his MBBS from Ahmadu Bello University, Zaria, and completed postgraduate psychiatric training at the Federal Neuropsychiatric Hospital, Kware. He currently serves as Chairman of the Hospital’s Health Research Ethics Committee and is pursuing a Master of Public Health at Usmanu Danfodiyo University, Sokoto.`
-        },
+        
+       
         {
             name: "DR SARKI JUNAIDU",
             role: "Chairman SERVICOM",
