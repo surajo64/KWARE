@@ -10,9 +10,11 @@ import wardImg from '../assets/ward.png';
 import centreImg from '../assets/centre.png';
 import aeImg from '../assets/a&e.png';
 import cmdImg from '../assets/cmd.png';
-import hadminImg from '../assets/hadmin.png';
 import pharmImg from '../assets/pharm.png';
 import avatarImg from '../assets/avatar.png';
+import hadminImg from '../assets/hadmin.png';
+import cmacImg from '../assets/cmac.png';
+import researchImg from '../assets/research.png';
 
 export default function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -58,29 +60,34 @@ export default function Home() {
     // Leadership team preview
     const leadershipTeam = [
         {
-            name: "Medical Director",
+            name: "Dr. Abubakar Baguda Sulaiman, FMCPsych",
             role: "Medical Director",
             image: cmdImg,
-            bio: "Leading the hospital towards excellence in mental health care delivery, training, and research."
+             qualifications: "",
+            bio: "Dr. Abubakar Baguda Sulaiman is a Consultant Psychiatrist and health administrator with extensive experience in clinical psychiatry, postgraduate medical training, and health systems leadership."
         },
-        {
-            name: "Dr. Aminu A. Usman",
-            role: "Head of Administration",
-            image: avatarImg,
-            bio: "Overseeing administrative operations and ensuring efficient resource management."
-        },
-        {
-            name: "Pharm. Samuel Oluwasegun Olaoye",
-            role: "Head of Pharmacy",
-            image: pharmImg,
-            bio: "Consultant Pharmacist with over 30 years of experience in hospital pharmacy."
-        },
-        {
-            name: "Nurse Ahmad Balarabe Tanimu",
-            role: "Head of Nursing Services",
-            image: avatarImg,
-            bio: "Leading nursing administration and clinical care delivery."
-        }
+       {
+                   name: "Dr. soon.. ",
+                   role: "Ag. Head of Administration ",
+                   image: avatarImg,
+                   qualifications: "Waiting... ",
+                   bio: `Wainting...`      
+                },
+               {
+                   name: "Dr. Zubairu Umar, MBBS, FMCPsych",
+                   role: "Ag. Head of Clinical Services (CMAC)",
+                   image: cmacImg,
+                   qualifications: "Consultant Psychiatrist & Hospital Administrator",
+                   bio: "Dr. Zubairu Umar is a Consultant Psychiatrist and Hospital Administrator currently serving as the Acting Head of Clinical Services at the Federal Neuropsychiatric Hospital, Kware. A Fellow of the National Postgraduate Medical College of Nigeria, he is a senior clinical leader with extensive experience in psychiatric practice, hospital administration, and mental health research. He provides strategic leadership in clinical governance, service expansion, and EMR implementation. His research focuses on depression in children/adolescents with intellectual disabilities and mental health epidemiology. He is passionate about AI in healthcare and mental health advocacy."
+               },
+                
+                {
+                   name: "Dr. Abdulaziz Hadi Ibrahim, MBBS, FWACP ",
+                   role: "Deputy Head of Clinical services",
+                   image: researchImg,
+                   qualifications: "Consultant Psychiatrist ",
+                   bio: `Dr. Abdulaziz Hadi Ibrahim is a Consultant Psychiatrist and Fellow of the West African College of Physicians (Psychiatry). He obtained his MBBS from Ahmadu Bello University, Zaria, and completed postgraduate psychiatric training at the Federal Neuropsychiatric Hospital, Kware. He currently serves as Chairman of the Hospital’s Health Research Ethics Committee and is pursuing a Master of Public Health at Usmanu Danfodiyo University, Sokoto.`
+               },
     ];
 
     // Latest news items
@@ -485,7 +492,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold mb-1">Emergency Hotline</h4>
-                                        <p className="text-gray-200">08037339521</p>
+                                        <p className="text-gray-200">07068334606</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -494,7 +501,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold mb-1">Email Us</h4>
-                                        <p className="text-gray-200">INFO@FNPHKSOK.GOV.NG</p>
+                                        <p className="text-gray-200">info@fnphkware.gov.ng</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">

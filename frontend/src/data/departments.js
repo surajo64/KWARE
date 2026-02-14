@@ -7,6 +7,7 @@ import labImg from '../assets/lab.png';
 import wardImg from '../assets/ward.png';
 import nurseimg from '../assets/nurse.png';
 import hospitalImg from '../assets/hospital.png';
+import wcdImg from '../assets/wcd.png';
 
 export const departments = [
     // Clinical Services
@@ -26,58 +27,8 @@ export const departments = [
         description: "Dedicated nursing professionals providing 24/7 care with compassion and expertise.",
         content: `The Nursing Services Department of the Federal Neuropsychiatric Hospital (FNPH), Kware, Sokoto, has been a central component of the institution since its establishment in 1988 as Kware Mental Home under the Sokoto State Ministry of Social Welfare. Following the hospital’s takeover by the Federal Ministry of Health in 1995, the department evolved in line with the mandate of a federal tertiary mental health institution. As part of the Clinical Services Directorate, it has expanded with the hospital’s growth and now oversees thirteen wards and units with an estimated bed capacity of about 300, all managed by professionally trained nursing staff delivering specialized psychiatric and integrated medical care. Core services include the Assessment Unit for patient intake, psychiatric evaluation, triage, and coordination of multidisciplinary care, and the Outpatient Department, which provides follow-up services such as medication monitoring, psychoeducation, crisis intervention, relapse prevention, and admission and discharge coordination. The department also manages specialized substance use treatment facilities, including Drug Wards A and B, the Drug Addiction, Treatment, Education and Research (DATER) Unit, and the Regional Centre for Women and Children Drug Rehabilitation, offering detoxification, rehabilitation, behavioral therapy, and structured aftercare. Inpatient male and female psychiatric wards provide comprehensive nursing care for severe mental illnesses, while also serving as training and research centers. Additional services include the Electroconvulsive Therapy (ECT) Unit and the Accident and Emergency (A&E) wards introduced in July 2023 to support integrated emergency medical and surgical care. Through these milestones and services, the department remains pivotal to the delivery of safe, patient-centered, and integrated healthcare in accordance with Federal Ministry of Health standards.`
     },
-    {
-        id: "psychology",
-        title: "Psychology",
-        category: "Clinical",
-        image: hospitalImg,
-        description: "Psychological assessment, therapy, and counseling services.",
-        content: `The Clinical Psychology Department provides specialized psychological assessment and evidence-based therapeutic services for individuals with emotional, behavioural, and mental health conditions. The department operates within the scientist–practitioner model, integrating current psychological research with ethical, compassionate, and patient-centred clinical practice. Services are delivered in collaboration with the hospital’s multidisciplinary team to ensure holistic care.
-Core Functions
-The department’s functions are strategically focused on clinical service delivery, system support, and capacity development:
-Psychological Assessment and Diagnosis:
-Comprehensive evaluation of cognitive, emotional, personality, and behavioural functioning using standardized psychological tests and structured clinical interviews.
-Evidence-Based Psychotherapy:
-Provision of individual, group, and family psychotherapies based on scientifically validated psychological models.
-Consultancy and Public Mental Health Support:
-Technical advisory services to government institutions and NGOs on mental health policy, crisis intervention, community mental health programmes, and psychoeducational initiatives.
-Training, Research, and Prevention:
-Supervision of psychology trainees, conduct of clinical research to improve treatment outcomes, and development of preventive and promotive mental health programmes.`
-    },
-    {
-        id: "occupational-therapy",
-        title: "Occupational Therapy",
-        category: "Clinical",
-        image: hospitalImg,
-        description: "The Department of Occupational Therapy is a medical rehabilitation unit.",
-        content: `The Department of Occupational Therapy is a medical rehabilitation unit dedicated to promoting health, functional ability, and independence through the use of medically prescribed, purposeful activities. The department provides therapeutic interventions for patients with physical, cognitive, emotional, and psychosocial challenges.
-
-Occupational Therapy supports patient participation in meaningful daily activities, including self-care, work, productivity, and leisure, which are essential for functional recovery, wellbeing, and relapse prevention. Services are structured to enhance independence and facilitate successful reintegration into the community.
-
-Core Functions
-The department delivers rehabilitative services focused on improving quality of life through:
-- Motivation and enhancement of functional skills
-- Assessment of Activities of Daily Living (ADLs) and vocational abilities
-- Identification and reduction of barriers to independence
-- Development and implementation of individualized treatment plans
-- Provision of therapeutic activities, assistive devices, and adaptive equipment
-- Vocational training, work habit development, and community reintegration`
-    },
-    {
-        id: "pharmacy",
-        title: "Pharmacy",
-        category: "Clinical",
-        image: hospitalImg,
-        description: "Dispensing medications and providing pharmaceutical care.",
-        content: `The Department of Pharmaceutical Services ensures the safe, effective, economical, and rational use of medicines at the Federal Neuropsychiatric Hospital, Kware. It is responsible for the procurement, storage, distribution, dispensing, and control of all pharmaceuticals in line with national health regulations and best practices.
-In accordance with the National Drug Policy, the department ensures efficient drug management, equitable access to quality medicines, rational drug use, pharmacovigilance, pharmaceutical research, local drug production support, and reduction of antimicrobial resistance.
-Core Functions
-Medication management and dispensing; clinical pharmacy services; patient safety and pharmacovigilance; drug information and education; procurement and inventory management; Drug Revolving Fund administration; regulatory compliance; research, audit, and staff development.
-Operational Units
-Clinical Inpatient Pharmacy; Clinical Outpatient Pharmacy; Accident and Emergency Pharmacy; Main Medical Store; Active Store; Procurement; Drug Information; Research; Pharmacovigilance; Drug Revolving Fund Management; Audit Unit. All units operate under the coordination of the Head of Department.
-`
-    },
-    {
+    
+{
         id: "medical-laboratory",
         title: "Medical Laboratory Services",
         category: "Clinical",
@@ -116,6 +67,59 @@ The department operates through several functional units that support efficient 
 Collectively, these units have significantly strengthened the hospital’s emergency response capacity, improved patient outcomes, and reinforced integrated service delivery in line with national healthcare standards.
 `
     },
+    {
+        id: "psychology",
+        title: "Psychology",
+        category: "Clinical",
+        image: wcdImg,
+        description: "Psychological assessment, therapy, and counseling services.",
+        content: `The Clinical Psychology Department provides specialized psychological assessment and evidence-based therapeutic services for individuals with emotional, behavioural, and mental health conditions. The department operates within the scientist–practitioner model, integrating current psychological research with ethical, compassionate, and patient-centred clinical practice. Services are delivered in collaboration with the hospital’s multidisciplinary team to ensure holistic care.
+Core Functions
+The department’s functions are strategically focused on clinical service delivery, system support, and capacity development:
+Psychological Assessment and Diagnosis:
+Comprehensive evaluation of cognitive, emotional, personality, and behavioural functioning using standardized psychological tests and structured clinical interviews.
+Evidence-Based Psychotherapy:
+Provision of individual, group, and family psychotherapies based on scientifically validated psychological models.
+Consultancy and Public Mental Health Support:
+Technical advisory services to government institutions and NGOs on mental health policy, crisis intervention, community mental health programmes, and psychoeducational initiatives.
+Training, Research, and Prevention:
+Supervision of psychology trainees, conduct of clinical research to improve treatment outcomes, and development of preventive and promotive mental health programmes.`
+    },
+    {
+        id: "occupational-therapy",
+        title: "Occupational Therapy",
+        category: "Clinical",
+        image: hospitalImg,
+        description: "The Department of Occupational Therapy is a medical rehabilitation unit.",
+        content: `The Department of Occupational Therapy is a medical rehabilitation unit dedicated to promoting health, functional ability, and independence through the use of medically prescribed, purposeful activities. The department provides therapeutic interventions for patients with physical, cognitive, emotional, and psychosocial challenges.
+
+Occupational Therapy supports patient participation in meaningful daily activities, including self-care, work, productivity, and leisure, which are essential for functional recovery, wellbeing, and relapse prevention. Services are structured to enhance independence and facilitate successful reintegration into the community.
+
+Core Functions
+The department delivers rehabilitative services focused on improving quality of life through:
+- Motivation and enhancement of functional skills
+- Assessment of Activities of Daily Living (ADLs) and vocational abilities
+- Identification and reduction of barriers to independence
+- Development and implementation of individualized treatment plans
+- Provision of therapeutic activities, assistive devices, and adaptive equipment
+- Vocational training, work habit development, and community reintegration`
+    },
+
+    {
+        id: "pharmacy",
+        title: "Pharmacy",
+        category: "Clinical",
+        image: hospitalImg,
+        description: "Dispensing medications and providing pharmaceutical care.",
+        content: `The Department of Pharmaceutical Services ensures the safe, effective, economical, and rational use of medicines at the Federal Neuropsychiatric Hospital, Kware. It is responsible for the procurement, storage, distribution, dispensing, and control of all pharmaceuticals in line with national health regulations and best practices.
+In accordance with the National Drug Policy, the department ensures efficient drug management, equitable access to quality medicines, rational drug use, pharmacovigilance, pharmaceutical research, local drug production support, and reduction of antimicrobial resistance.
+Core Functions
+Medication management and dispensing; clinical pharmacy services; patient safety and pharmacovigilance; drug information and education; procurement and inventory management; Drug Revolving Fund administration; regulatory compliance; research, audit, and staff development.
+Operational Units
+Clinical Inpatient Pharmacy; Clinical Outpatient Pharmacy; Accident and Emergency Pharmacy; Main Medical Store; Active Store; Procurement; Drug Information; Research; Pharmacovigilance; Drug Revolving Fund Management; Audit Unit. All units operate under the coordination of the Head of Department.
+`
+    },
+    
     {
         id: "medical-records",
         title: "Health Records / Information Management Department",
