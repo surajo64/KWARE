@@ -10,6 +10,8 @@ import socialImg from '../assets/social.png';
 import nurseImg from '../assets/nurseh.png';
 import avatarImg from '../assets/avatar.png';
 import psychoImg from '../assets/psyco.png';
+import adminImg from '../assets/admin.png';
+import otImg from '../assets/ot.png';
 import AE from '../assets/ha&e.png';
 import researchImg from '../assets/research.png';
 import { User, Award, BookOpen, Globe, X, ArrowRight } from 'lucide-react';
@@ -28,9 +30,9 @@ He is a member and fellow of several professional bodies, including the Nigerian
 `
         },
         {
-            name: "Dr. soon.. ",
+            name: "Alh. Sanusi Umar Adoke",
             role: "Ag. Head of Administration ",
-            image: avatarImg,
+            image: adminImg,
             qualifications: "Waiting... ",
             bio: `Wainting...`      
          },
@@ -99,7 +101,7 @@ He possesses extensive clinical experience across inpatient, outpatient, and com
          {
             name: "Mr. Sanusi B. Ahmed",
             role: "HEAD OF OCCUPATIONAL THERAPY",
-            image:avatarImg,
+            image:otImg,
             qualifications: "BSc in Occupational Therapy",
             bio: ` Mr. Sanusi B. Ahmed is a trained Occupational Therapy professional. He was born and raised in Argungu, Kebbi State, Nigeria, where he completed his primary and secondary education. He obtained a Basic Nursing Certificate from the School of Nursing, Sokoto, and a Post-Basic Psychiatric Nursing Certificate from Aro Hospital, Abeokuta.
 He further trained at the Federal School of Occupational Therapy, Yaba, Lagos, and earned a Bachelor of Science in Occupational Therapy from Queen Margaret University, Edinburgh, Scotland. He is married with children and brings multidisciplinary clinical expertise to the leadership of the department.
