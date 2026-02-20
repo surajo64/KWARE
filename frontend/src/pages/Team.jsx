@@ -11,6 +11,7 @@ import nurseImg from '../assets/nurseh.png';
 import avatarImg from '../assets/avatar.png';
 import psychoImg from '../assets/psyco.png';
 import adminImg from '../assets/admin.png';
+import servImg from '../assets/serv.png';
 import otImg from '../assets/ot.png';
 import AE from '../assets/ha&e.png';
 import researchImg from '../assets/research.png';
@@ -151,7 +152,7 @@ He is married and blessed with children`
         {
             name: "DR SARKI JUNAIDU",
             role: "Chairman SERVICOM",
-            image: avatarImg,
+            image: servImg,
             qualifications: "MSc in Chemical Pathology, with PhD Inview",
             bio: `Dr. Sarki Junaidu hails from Dogondaji town in Tambawal Local Government Area of Sokoto State, Nigeria. He attended Government Secondary School Goronyo (GSSS Goronyo) and obtained his MBBS degree from Usmanu Danfodiyo University Sokoto (UDUS). He is currently a Consultant Psychiatrist, holding fellowships from both the West African College of Physicians (WACP) and the National Postgraduate Medical College of Nigeria (NPMCN). Dr. Junaidu is happily married with children.`
         },
